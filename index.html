@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Memo notes</title>
+    
+    <link  type="text/css" rel="stylesheet" href="style.css" />
+    <script src="notepad.js"></script>
+</head>
+<body>
+	<div class='title'>DM's MEMO notes</div>
+    <button type="button" class="newFile">NewFile</button><br />
+    <button type="button" class="save">Save</button><br />
+    <button type="button" class="open">Open</button>
+    <div class="tab">
+    </div>
+    <script>
+    	var page = new Page(document.querySelector(".tab"),document.querySelector(".save"),document.querySelector(".newFile"),document.querySelector(".open"));
+    </script>
+
+</body>
+</html>
